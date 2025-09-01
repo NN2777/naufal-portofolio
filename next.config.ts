@@ -8,8 +8,6 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true, // 👈 disables lint errors in build
   },
-
-  assetPrefix: '',
 }
 
 exports = nextConfig;
