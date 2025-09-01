@@ -1,11 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export', // 👈 enables static export
-  images: {
-    unoptimized: true, // 👈 disable Next.js image optimization for GitHub Pages
-  },
-  basePath: '/naufal-portofolio', // 👈 replace with your GitHub repo name
+  output: 'export',
+  images: { unoptimized: true },
+  basePath: '/naufal-portofolio',  // your repo name
+  trailingSlash: true,   
 };
 
-export default nextConfig;
+module.exports = nextConfig;
