@@ -1,5 +1,5 @@
 // pages/index.js
-import '../../styles/global.css';
+import '../styles/global.css';
 import Hero from "./section/Hero";
 import Personal from "./section/Personal";
 import TechnicalSkills from "./section/TechnicalSkills";

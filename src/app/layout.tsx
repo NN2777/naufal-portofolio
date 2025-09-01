@@ -18,12 +18,12 @@ const robotoMonoFont = Roboto_Mono({
 });
 
 const segoeUIFont = localFont({
-  src: "../../fonts/SegoeUI.ttf",
+  src: "fonts/SegoeUI.ttf",
   variable : "--font-segoe_ui",
 });
 
 const segoeUIBoldFont = localFont({
-  src: "../../fonts/SegoeUIBold.ttf",
+  src: "fonts/SegoeUIBold.ttf",
   variable : "--font-segoe_ui_bold",
 });
 
