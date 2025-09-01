@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true, // 👈 disables lint errors in build
   },
+  assetPrefix: '/naufal-portofolio/',
 };
 
 module.exports = nextConfig;
