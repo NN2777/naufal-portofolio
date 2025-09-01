@@ -4,7 +4,7 @@ import { PiMouseScrollLight } from "react-icons/pi";
 
 const Hero = () => {
   return (
-    <section className="relative text-white">
+    <section id="home" className="relative text-white">
       <div className="container mx-auto pt-36 md:pt-72 px-4">
         {/* Text Section */}
         <div className="text-center">

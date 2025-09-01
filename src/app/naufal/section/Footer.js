@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="pt-20 text-white font-roboto_mono text-center w-screen">
+    <section id="contact" className="pt-20 text-white font-roboto_mono text-center w-screen">
       <div className="flex flex-col items-center text-2xl gap-6 pb-16">
         <p className="text-4xl font-segoe_ui_bold">Let's Collaborate!</p>
         <p>Ready to discuss projects, ideas, or just connect? Feel free to reach out to me</p>

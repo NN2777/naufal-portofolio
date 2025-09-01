@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Works = () => {
   return (
-    <section className="py-16 w-[1200px]">
+    <section id="work" className="py-16 w-[1200px]">
       <h2 className="text-7xl text-center text-white font-poppins font-bold">My Works</h2>
       <div>
          <p className="font-roboto_mono text-white text-center">This section showcases the projects I have undertaken, highlighting my skills, creativity, and dedication.</p>
@@ -13,14 +13,14 @@ const Works = () => {
       </div> */}
       <div className="grid grid-cols-12 gap-9 text-white pt-8">
         {/* <!-- First Row: Full-width item --> */}
-        <div className="col-span-12 bg-blue-500 h-[528px] grid grid-rows-12 overflow-hidden">
-          <div className="row-span-9 relative content-center">
+        <div className="col-span-12 bg-blue-500 h-[528px] grid grid-rows-12">
+          <div className="row-span-9 relative content-center overflow-hidden group">
             <Image
               src={"/custom/GhostPhotographyWebp.webp"}
               alt="My Image"
               fill
               style={{ objectFit: "cover" }}
-              className="justify-self-center"
+              className="justify-self-center cursor-pointer transition-transform duration-500 ease-in-out group-hover:scale-110"
             />
           </div>
           <div className="row-span-3 content-center bg-[#201F23]">
@@ -35,13 +35,13 @@ const Works = () => {
         <!-- Left: Two equally divided items --> */}
         <div className="col-span-8 grid grid-rows-2 gap-9 h-[1092px] overflow-hidden">
           <div className="bg-green-500 h-[528px] relative grid grid-row-12">
-            <div className="row-span-9 relative content-center">
+            <div className="row-span-9 relative content-center overflow-hidden group">
               <Image
                 src={"/custom/BrainCooked!.png"}
                 alt="My Image"
                 fill
                 style={{objectFit:"cover"}}
-                className="justify-self-center"
+                className="justify-self-center cursor-pointer transition-transform duration-500 ease-in-out group-hover:scale-110"
               />
             </div>
             <div className="row-span-3 content-center bg-[#201F23]">
@@ -52,13 +52,13 @@ const Works = () => {
             </div>
           </div>
           <div className="bg-green-500 h-[528px] grid grid-row-12">
-            <div className="row-span-9 relative content-center">
+            <div className="row-span-9 relative content-center overflow-hidden group">
               <Image
                 src={"/custom/Gamarista.png"}
                 alt="My Image"
                 fill
                 style={{objectFit:"cover"}}
-                className="justify-self-center"
+                className="justify-self-center cursor-pointer transition-transform duration-500 ease-in-out group-hover:scale-110"
               />
             </div>
             <div className="row-span-3 content-center bg-[#201F23]">
@@ -73,13 +73,13 @@ const Works = () => {
         {/* <!-- Right: Three stacked items --> */}
         <div className="col-span-4 grid grid-rows-3 gap-9 h-[1092px] overflow-hidden">
           <div className="bg-yellow-500 h-[340px] grid grid-rows-12">
-            <div className="row-span-9 relative content-center">
+            <div className="row-span-9 relative content-center overflow-hidden group">
               <Image
                 src={"/custom/GigglesandGold.png"}
                 alt="My Image"
                 fill
                 style={{objectFit:"cover"}}
-                className="justify-self-center"
+                className="justify-self-center cursor-pointer transition-transform duration-500 ease-in-out group-hover:scale-110"
               />
             </div>
             <div className="row-span-3 content-center bg-[#201F23]">
@@ -90,13 +90,13 @@ const Works = () => {
             </div>
           </div>
           <div className="bg-yellow-500 h-[340px] grid grid-rows-12">
-            <div className="row-span-9 relative content-center">
+            <div className="row-span-9 relative content-center overflow-hidden group">
               <Image
                 src={"/custom/ZombieToys.jpg"}
                 alt="My Image"
                 fill
                 style={{objectFit:"cover"}}
-                className="justify-self-center"
+                className="justify-self-center cursor-pointer transition-transform duration-500 ease-in-out group-hover:scale-110"
               />
             </div>
             <div className="row-span-3 content-center bg-[#201F23]">
@@ -107,13 +107,13 @@ const Works = () => {
             </div>
           </div>
           <div className="bg-yellow-500 h-[340px] grid grid-rows-12">
-            <div className="row-span-9 relative content-center">
+            <div className="row-span-9 relative content-center overflow-hidden group">
               <Image
                 src={"/custom/PolinemaOfficial.png"}
                 alt="My Image"
                 fill
                 style={{objectFit:"cover"}}
-                className="justify-self-center"
+                className="justify-self-center cursor-pointer transition-transform duration-500 ease-in-out group-hover:scale-110"
               />
             </div>
             <div className="row-span-3 content-center bg-[#201F23]">
@@ -128,13 +128,13 @@ const Works = () => {
         {/* <!-- Third Row: Three stacked items column --> */}
         <div className="col-span-12 grid grid-cols-12 gap-9 h-[340px] overflow-hidden">
           <div className="col-span-4 grid grid-row-12">
-            <div className="row-span-9 relative content-center">
+            <div className="row-span-9 relative content-center overflow-hidden group">
               <Image
                 src={"/custom/PPID.png"}
                 alt="My Image"
                 fill
                 style={{objectFit:"cover"}}
-                className="justify-self-center"
+                className="justify-self-center cursor-pointer transition-transform duration-500 ease-in-out group-hover:scale-110"
               />
             </div>
             <div className="row-span-3 content-center bg-[#201F23]">
