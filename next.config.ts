@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true, // 👈 disables lint errors in build
   },
 
-};
+  assetPrefix: '',
+}
 
-module.exports = nextConfig;
+exports = nextConfig;
