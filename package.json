@@ -2,6 +2,7 @@
   "name": "naufal-portofolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nn2777.github.io/naufal-portofolio",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
